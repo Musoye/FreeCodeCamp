@@ -1,5 +1,5 @@
 const password_test = ['*Look123', 'Bicycle347&', 'Look234*', '*123Look', '*Look123', '132Look*']
-const pattern = /([A-Z]+\w+\d+\W+)/; //checks for at least an uppercase,a number and 
+const pattern = /([A-Z]+\w+\d+\W+)/; //checks for at least an uppercase,a number and a special character
 let i = 0;
 while (i < 4){
     if ((password_test[i]).match(pattern))
