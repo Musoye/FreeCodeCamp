@@ -1,4 +1,4 @@
-//QuestioN : Write a function for encoding string in caeser cipher / Shift cipher - that encodes it in ROT-13 method that is 13 awya from the current alphabet. i.e A-N, B- O
+//QuestioN : Write a function for encoding string in caeser cipher / Shift cipher - that encodes it in ROT-13 method that is 13 awys from the current alphabetic position. i.e A-N, B- O
 
 function rot13(str) {
     let letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
