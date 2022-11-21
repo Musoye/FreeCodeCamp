@@ -39,4 +39,6 @@ int main(void){
         printf("%c", r[i]);
         i++;
     }
+    free(r);
+    return (0);
 }
